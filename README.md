@@ -8,6 +8,6 @@ The idea was born on a Friday night, after having searched for good resources on
 
 If you like the idea, let's begin by putting together the [Table of Contents](https://github.com/SitecoreMVC/theBook/blob/master/table-of-content.md). This will work a bit like a *wiki*, but hopefully using Github and Markdown will facilitate things a bit.
 
-My name is Francesco Gallarotti {{[@gallarotti](https://www.twitter.com/gallarotti) on Twitter}} and I will be the host and administrator of the project. Please contact me if you have ideas and/or suggestions. And don't forget to share this project with all your colleagues and friends that could be interested in participating! 
+My name is Francesco Gallarotti ([@gallarotti](https://www.twitter.com/gallarotti) on Twitter) and I will be the host and administrator of the project. Please contact me if you have ideas and/or suggestions. And don't forget to share this project with all your colleagues and friends that could be interested in participating! 
 
 Thank you!
