@@ -1,5 +1,4 @@
-
-#Sitecore MVC - the Book
+# Sitecore MVC - the Book
 
 This is the first crowdsourced book on Sitecore MVC. 
 It is going to be entirely written using **Markdown** and hosted here on GitHub.
@@ -12,11 +11,11 @@ My name is Francesco Gallarotti ([@gallarotti](https://www.twitter.com/gallarott
 
 Thank you!
 
-##How to submit your ideas
+## How to submit content
 
 As clearly explained in one of the [Github Help](https://help.github.com/articles/using-pull-requests) pages, 
 
 > the **fork & pull model** lets anyone fork an existing repository and push changes to their personal fork without requiring access be granted to the source repository. The changes must then be pulled into the source repository by the project maintainer. This model reduces the amount of friction for new contributors and is popular with open source projects because it allows people to work independently without upfront coordination.
 
-
+Therefore, submitting a **Pull Request** is going to be the best way to submit your content to the book.
 
