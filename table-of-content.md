@@ -3,17 +3,20 @@
 
 * General Sitecore Concepts
   * Items, Data Templates, Layouts and Renderings   
-  * Sitecore Rocks
+  * Essential Tools (Sitecore Rocks)
   * Setting up the project
+  * The MVC pattern in Sitecore
+* Create Your First MVC Project in Sitecore
 * Sitecore.MVC
   * Html.Sitecore()
 * Renderings
   * View Rendering
   * Controller rendering
-* Models
-* Extending the SitecoreHelper Class
+* Model Binding
+* Helpers
+ * Extending the SitecoreHelper Class
 * MVC Routes 
-* Forms
-* DMS
-* Create Your First MVC Project in Sitecore
-
+* Forms - Anything special here developer should know? 
+* DMS?
+* Sitecore Item WebAPI
+* Glass Mapper and some other third party stuff?
