@@ -19,3 +19,6 @@ As clearly explained in one of the [Github Help](https://help.github.com/article
 
 Therefore, submitting a **Pull Request** is going to be the best way to submit your content to the book.
 
+## More Info
+
+Don't forget to check the current list of [milestones](https://github.com/SitecoreMVC/theBook/issues/milestones), and join the discussion in the hottest issue right now, [Building the Table of Contents](https://github.com/SitecoreMVC/theBook/issues/2)!
