@@ -11,51 +11,53 @@ Note: I'm hesitant about including this section, since there is already a lot of
 
 ### Section Two: MVC in Sitecore
 
-#### Chapter 1: Back to Basics: Sitecore Items, Data Templates, Layouts and Renderings   
+#### Chapter 1: Back to Basics
+Sitecore Items, Data Templates, Layouts and Renderings   
 
 #### Chapter 2: Essential Tools 
 - Sitecore Rocks
 
 #### Chapter 3: The MVC pattern in Sitecore
 
-#### Chapter 4: Setting up the project
+#### Chapter 4: Create Your First MVC Project in Sitecore
+- Setting up the project
+- ??
 
-#### Chapter 5: Create Your First MVC Project in Sitecore
-
-#### Chapter 6: Sitecore.MVC
+#### Chapter 5: Sitecore.MVC
 - Html.Sitecore()
 
-#### Chapter 7: Renderings
+#### Chapter 6: Renderings
 - View Rendering
 - Controller rendering
 
-#### Chapter 8: Model Binding
+#### Chapter 7: Model Binding
 
-#### Chapter 9: Helpers
+#### Chapter 8: Helpers
 - Extending the SitecoreHelper Class
 
-#### Chapter 10: MVC Routes 
+#### Chapter 9: MVC Routes 
 
-#### Chapter 11: MVC-related Pipelines
+#### Chapter 10: MVC-related Pipelines
 
-#### Chapter 12: Page Editor
-
-#### Chapter 13: Web Forms for Marketers
+#### Chapter 11: Page Editor with MVC
 Anything special here with regards to MVC that a developer should know? 
 
-#### Chapter 14: DMS
+#### Chapter 12: Web Forms for Marketers
+Anything special here with regards to MVC that a developer should know? 
+
+#### Chapter 13: DMS
 Is there anything specific to MVC that needs to be discussed?
 
-#### Chapter 15: Sitecore Item WebAPI
+#### Chapter 14: Sitecore Item WebAPI
 
-#### Chapter 16: Dependency Injection
+#### Chapter 15: Dependency Injection
 
-#### Chapter 17: Test Driven Development with Sitecore MVC
+#### Chapter 16: Testing Sitecore MVC
 - Unit Testing
 - Mocking
 - E2E Testing
 
-#### Chapter 18: Code Generation with Sitecore MVC
+#### Chapter 17: Code Generation with Sitecore MVC
 - Glass Mapper integration with Sitecore MVC
 - Compiled Domain Model integration with Sitecore MVC
 - Diamond (?)
