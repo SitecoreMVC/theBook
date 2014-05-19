@@ -60,11 +60,11 @@ Is there anything specific to MVC that needs to be discussed?
 - Compiled Domain Model integration with Sitecore MVC
 - Diamond (?)
 
-### Section Three: Case Studies
-The more the merrier, obviously, but we should at least include a couple of case studies. Each case study should be accompanied by a fully working Visual Studio solution with all the files and resources needed.
-
-### Section Four: References
+## Section Three: References
 
 #### Chapter 1: Online Resources
 Anything else here?
+
+## Part Two: Case Studies
+The more the merrier, obviously, but we should at least include a couple of case studies. **Each case study should be accompanied by a fully working Visual Studio solution with all the files and resources needed.**
 
