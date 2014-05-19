@@ -39,28 +39,28 @@ Sitecore Items, Data Templates, Layouts and Renderings
 
 #### Chapter 10: MVC-related Pipelines
 
-#### Chapter 11: Page Editor with MVC
-Anything special here with regards to MVC that a developer should know? 
+#### Chapter 11: Sitecore Item WebAPI
 
-#### Chapter 12: Web Forms for Marketers
-Anything special here with regards to MVC that a developer should know? 
+#### Chapter 12: Dependency Injection
 
-#### Chapter 13: DMS
-Is there anything specific to MVC that needs to be discussed?
-
-#### Chapter 14: Sitecore Item WebAPI
-
-#### Chapter 15: Dependency Injection
-
-#### Chapter 16: Testing Sitecore MVC
+#### Chapter 13: Testing Sitecore MVC
 - Unit Testing
 - Mocking
 - E2E Testing
 
-#### Chapter 17: Code Generation with Sitecore MVC
+#### Chapter 14: Code Generation with Sitecore MVC
 - Glass Mapper integration with Sitecore MVC
 - Compiled Domain Model integration with Sitecore MVC
 - Diamond (?)
+
+#### Chapter 15: Page Editor with MVC
+Anything special here with regards to MVC that a developer should know? 
+
+#### Chapter 16: Web Forms for Marketers with MVC
+Anything special here with regards to MVC that a developer should know? 
+
+#### Chapter 17: DMS with MVC
+Is there anything specific to MVC that needs to be discussed?
 
 ### Section Three: References
 
