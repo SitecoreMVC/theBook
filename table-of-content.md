@@ -11,7 +11,7 @@
   * Html.Sitecore()
 * Renderings
   * View Rendering
-  * Controller rendering
+  * Controller Rendering
 * Model Binding
 * Helpers
  * Extending the SitecoreHelper Class
@@ -19,4 +19,6 @@
 * Forms - Anything special here developer should know? 
 * DMS?
 * Sitecore Item WebAPI
-* Glass Mapper and some other third party stuff?
+* Code generation with Sitecore MVC
+  * Glass Mapper integration with Sitecore MVC
+  * Compiled Domain Model integration with Sitecore MVC
