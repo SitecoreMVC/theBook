@@ -6,7 +6,7 @@ After having researched online for good resources on Sitecore MVC, I found that 
 
 The initial response shows some interest by the Sitecore community on Twitter. In just a few hours from the initial tweet I was able to exchange a few tweets with [Martina Welander](https://twitter.com/mhwelander), who is a Technical Consulting Engineer at Sitecore and who has been focusing primarily on Sitecore MVC. Martina agrees that this project should focus on trying to capture *real life* Sitecore MVC experiences, possibly by showcasing an array of different case studies. Something that, using Martina's words, "only the community can provide [and will] differentiate [this project] from plain docs". Martina's feedback is very important to me, because it confirms that having chosen to use the Github platform (instead of using a more document-oriented platform, such as Wiki) will give us the ability to include code, not just in the body of the pages, but literally as downloadable Visual Studio solution(s).
 
-If you are interested in paricipating in this project, let's begin by putting together the [Table of Contents](https://github.com/SitecoreMVC/theBook/blob/master/table-of-content.md). Join the discussion: [Building the Table of Contents](https://github.com/SitecoreMVC/theBook/issues/2). 
+If you are interested in participating in this project, let's begin by putting together the [Table of Contents](https://github.com/SitecoreMVC/theBook/blob/master/table-of-content.md). Join the discussion: [Building the Table of Contents](https://github.com/SitecoreMVC/theBook/issues/2). 
 
 Furthermore, you can always check the current list of [milestones](https://github.com/SitecoreMVC/theBook/issues/milestones)
 
