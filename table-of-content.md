@@ -56,7 +56,7 @@ Note: I'm hesitant about including this section, since there is already a lot of
 - Compiled Domain Model integration with Sitecore MVC
 - Diamond (?)
 
-#### Chapter 15: [Client Side Javascript Frameworks](https://github.com/saberone/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-15--Client-Side-Javascript-Frameworks.md) 
+#### Chapter 15: [Client Side Javascript Frameworks](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-15--Client-Side-Javascript-Frameworks.md) 
 
 #### Chapter 16: Page Editor with MVC
 Anything special here with regards to MVC that a developer should know? 
