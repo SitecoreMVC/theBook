@@ -5,50 +5,50 @@
 ### Section One: MVC
 Note: I'm hesitant about including this section, since there is already a lot of content out there about MVC, but maybe someone is interested in write some content to introduce the MVC pattern, tailoring the content to help the reader better understand how ASP.NET MVC integrates with Sitecore?
 
-#### Chapter 1: The MVC pattern
+#### Chapter 1: The MVC pattern [![](http://iconizer.net/files/Sketchdock_Ecommerce_Icons/orig/arrow-right-blue.png)](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-1--MVC/Chapter-01--The-MVC-Pattern.md)
 
-#### Chapter 2: ASP.NET MVC
+#### Chapter 2: [ASP.NET MVC](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-1--MVC/Chapter-02--ASP-NET-MVC.md)
 
 ### Section Two: MVC in Sitecore
 
-#### Chapter 1: Back to Basics
+#### Chapter 1: [Back to Basics](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-01--Back-to-Basics.md)
 Sitecore Items, Data Templates, Layouts and Renderings   
 
-#### Chapter 2: Essential Tools 
+#### Chapter 2: [Essential Tools](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-02--Essential-Tools.md) 
 - Sitecore Rocks
 
-#### Chapter 3: The MVC pattern in Sitecore
+#### Chapter 3: [The MVC pattern in Sitecore](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-03--The-MVC-Pattern-in-Sitecore.md)
 
-#### Chapter 4: Create Your First MVC Project in Sitecore
+#### Chapter 4: [Create Your First MVC Project in Sitecore](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-04--First-MVC-Project.md)
 - Setting up the project
 - ??
 
-#### Chapter 5: Sitecore.MVC
+#### Chapter 5: [Sitecore.MVC](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-05--Sitecore-MVC.md)
 - Html.Sitecore()
 
-#### Chapter 6: Renderings
+#### Chapter 6: [Renderings](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-06--Renderings.md)
 - View Rendering
 - Controller rendering
 
-#### Chapter 7: Model Binding
+#### Chapter 7: [Model Binding](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-07--Model-Binding.md)
 
-#### Chapter 8: Helpers
+#### Chapter 8: [Helpers](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-08--Helpers.md)
 - Extending the SitecoreHelper Class
 
-#### Chapter 9: MVC Routes 
+#### Chapter 9: [MVC Routes](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-09--MVC-Routes.md)
 
-#### Chapter 10: MVC-related Pipelines
+#### Chapter 10: [MVC-related Pipelines](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-10--MVC-Related-Pipelines.md)
 
-#### Chapter 11: Sitecore Item WebAPI
+#### Chapter 11: [Sitecore Item WebAPI](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-11--Sitecore-Item-WebAPI.md)
 
-#### Chapter 12: Dependency Injection
+#### Chapter 12: [Dependency Injection](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-12--Dependency-Injection.md)
 
-#### Chapter 13: Testing Sitecore MVC
+#### Chapter 13: [Testing Sitecore MVC](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-13--Testing-Sitecore-MVC.md)
 - Unit Testing
 - Mocking
 - E2E Testing
 
-#### Chapter 14: Code Generation with Sitecore MVC
+#### Chapter 14: [Code Generation with Sitecore MVC](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-14--Code-Generation-with-Sitecore-MVC.md)
 - Glass Mapper integration with Sitecore MVC
 - Compiled Domain Model integration with Sitecore MVC
 - Diamond (?)
