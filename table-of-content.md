@@ -51,18 +51,21 @@ Note: I'm hesitant about including this section, since there is already a lot of
 - Mocking
 - E2E Testing
 
-#### Chapter 14: [Code Generation with Sitecore MVC](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-14--Code-Generation-with-Sitecore-MVC.md)
+#### Chapter 14: [Client Side Javascript Frameworks](https://github.com/saberone/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-15--Client-Side-Javascript-Frameworks.md) 
+
+
+#### Chapter 15-with-Sitecore/Chapter-14--Code-Generation-with-Sitecore-MVC.md)
 - Glass Mapper integration with Sitecore MVC
 - Compiled Domain Model integration with Sitecore MVC
 - Diamond (?)
 
-#### Chapter 15: Page Editor with MVC
+#### Chapter 16: Page Editor with MVC
 Anything special here with regards to MVC that a developer should know? 
 
-#### Chapter 16: Web Forms for Marketers with MVC
+#### Chapter 17: Web Forms for Marketers with MVC
 Anything special here with regards to MVC that a developer should know? 
 
-#### Chapter 17: DMS with MVC
+#### Chapter 18: DMS with MVC
 Is there anything specific to MVC that needs to be discussed?
 
 ### Section Three: References
