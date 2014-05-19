@@ -12,15 +12,18 @@ Note: I'm hesitant about including this section, since there is already a lot of
 ### Section Two: MVC in Sitecore
 
 #### Chapter 1: [Back to Basics](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-01--Back-to-Basics.md)
-Sitecore Items, Data Templates, Layouts and Renderings   
+- Sitecore Items
+- Data Templates
+- Layouts
+- Renderings   
 
 #### Chapter 2: [Essential Tools](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-02--Essential-Tools.md) 
-- Sitecore Rocks
+- [Sitecore Rocks](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-02--Essential-Tools.md#sitecore-rocks)
 
 #### Chapter 3: [The MVC pattern in Sitecore](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-03--The-MVC-Pattern-in-Sitecore.md)
 
 #### Chapter 4: [Create Your First MVC Project in Sitecore](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-04--First-MVC-Project.md)
-- Setting up the project
+- [Setting up the project](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-04--First-MVC-Project.md#setting-up-the-project)
 - ??
 
 #### Chapter 5: [Sitecore.MVC](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-05--Sitecore-MVC.md)
