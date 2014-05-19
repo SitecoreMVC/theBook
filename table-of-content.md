@@ -5,7 +5,7 @@
 ### Section One: MVC
 Note: I'm hesitant about including this section, since there is already a lot of content out there about MVC, but maybe someone is interested in write some content to introduce the MVC pattern, tailoring the content to help the reader better understand how ASP.NET MVC integrates with Sitecore?
 
-#### Chapter 1: The MVC pattern [![](http://iconizer.net/files/Sketchdock_Ecommerce_Icons/orig/arrow-right-blue.png)](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-1--MVC/Chapter-01--The-MVC-Pattern.md)
+#### Chapter 1: [The MVC pattern](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-1--MVC/Chapter-01--The-MVC-Pattern.md)
 
 #### Chapter 2: [ASP.NET MVC](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-1--MVC/Chapter-02--ASP-NET-MVC.md)
 
