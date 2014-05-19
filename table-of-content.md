@@ -36,17 +36,29 @@ Note: I'm hesitant about including this section, since there is already a lot of
 
 #### Chapter 10: MVC Routes 
 
-#### Chapter 11: Forms
-Anything special here developer should know? 
+#### Chapter 11: MVC-related Pipelines
 
-#### Chapter 12: DMS
+#### Chapter 12: Page Editor
+
+#### Chapter 13: Web Forms for Marketers
+Anything special here with regards to MVC that a developer should know? 
+
+#### Chapter 14: DMS
 Is there anything specific to MVC that needs to be discussed?
 
-#### Chapter 13: Page Editor
+#### Chapter 15: Sitecore Item WebAPI
 
-#### Chapter 14: Sitecore Item WebAPI
+#### Chapter 16: Dependency Injection
 
-#### Chapter 15: Glass Mapper and some other third party stuff?
+#### Chapter 17: Test Driven Development with Sitecore MVC
+- Unit Testing
+- Mocking
+- E2E Testing
+
+#### Chapter 18: Code Generation with Sitecore MVC
+- Glass Mapper integration with Sitecore MVC
+- Compiled Domain Model integration with Sitecore MVC
+- Diamond (?)
 
 ### Section Three: Case Studies
 The more the merrier, obviously, but we should at least include a couple of case studies. Each case study should be accompanied by a fully working Visual Studio solution with all the files and resources needed.
@@ -56,27 +68,3 @@ The more the merrier, obviously, but we should at least include a couple of case
 #### Chapter 1: Online Resources
 Anything else here?
 
-<<<<<<< HEAD
-=======
-* General Sitecore Concepts
-  * Items, Data Templates, Layouts and Renderings   
-  * Essential Tools (Sitecore Rocks)
-  * Setting up the project
-  * The MVC pattern in Sitecore
-* Create Your First MVC Project in Sitecore
-* Sitecore.MVC
-  * Html.Sitecore()
-* Renderings
-  * View Rendering
-  * Controller Rendering
-* Model Binding
-* Helpers
- * Extending the SitecoreHelper Class
-* MVC Routes 
-* Forms - Anything special here developer should know? 
-* DMS?
-* Sitecore Item WebAPI
-* Code generation with Sitecore MVC
-  * Glass Mapper integration with Sitecore MVC
-  * Compiled Domain Model integration with Sitecore MVC
->>>>>>> FETCH_HEAD
