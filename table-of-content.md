@@ -20,3 +20,6 @@
 * DMS?
 * Sitecore Item WebAPI
 * Glass Mapper and some other third party stuff?
+* Pipelines related to MVC
+* Dependency Injection
+* Unit Testing (& Mocking?)
