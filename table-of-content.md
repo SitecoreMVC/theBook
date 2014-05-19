@@ -60,7 +60,7 @@ Is there anything specific to MVC that needs to be discussed?
 - Compiled Domain Model integration with Sitecore MVC
 - Diamond (?)
 
-## Section Three: References
+### Section Three: References
 
 #### Chapter 1: Online Resources
 Anything else here?
