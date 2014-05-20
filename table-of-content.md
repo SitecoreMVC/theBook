@@ -3,7 +3,6 @@
 ## Part One: Basics
 
 ### Section One: MVC
-Note: I'm hesitant about including this section, since there is already a lot of content out there about MVC, but maybe someone is interested in write some content to introduce the MVC pattern, tailoring the content to help the reader better understand how ASP.NET MVC integrates with Sitecore?
 
 #### Chapter 1: [The MVC pattern](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-1--MVC/Chapter-01--The-MVC-Pattern.md)
 
@@ -19,9 +18,8 @@ Note: I'm hesitant about including this section, since there is already a lot of
 
 #### Chapter 2: [Essential Tools](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-02--Essential-Tools.md) 
 - [Sitecore Rocks](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-02--Essential-Tools.md#sitecore-rocks)
-- [Sitecore Glimpse]
- - [Extensions to Sitecore Glimpse]
-
+- [Sitecore Glimpse](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-02--Essential-Tools.md#sitecore-glimpse)
+ - [Extensions to Sitecore Glimpse](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-02--Essential-Tools.md#extensions-to-sitecore-glimpse)
 
 #### Chapter 3: [The MVC pattern in Sitecore](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-03--The-MVC-Pattern-in-Sitecore.md)
 
