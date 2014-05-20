@@ -60,13 +60,15 @@
 
 #### Chapter 15: [Client Side Javascript Frameworks](https://github.com/saberone/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-15--Client-Side-Javascript-Frameworks.md) 
 
-#### Chapter 16: Page Editor with MVC
+#### Chapter 16: Developing MVC Applications for Sitecore with SPEAK
+
+#### Chapter 17: Page Editor with MVC
 Anything special here with regards to MVC that a developer should know? 
 
-#### Chapter 17: Web Forms for Marketers with MVC
+#### Chapter 18: Web Forms for Marketers with MVC
 Anything special here with regards to MVC that a developer should know? 
 
-#### Chapter 18: DMS with MVC
+#### Chapter 19: DMS with MVC
 Is there anything specific to MVC that needs to be discussed?
 
 ### Section Three: References
