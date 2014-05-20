@@ -48,14 +48,15 @@
 #### Chapter 12: [Dependency Injection](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-12--Dependency-Injection.md)
 
 #### Chapter 13: [Testing Sitecore MVC](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-13--Testing-Sitecore-MVC.md)
-- Unit Testing
-- Mocking
-- E2E Testing
+- [Unit Testing](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-13--Testing-Sitecore-MVC.md#unit-testing)
+- [Mocking](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-13--Testing-Sitecore-MVC.md#mocking)
+- [E2E Testing](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-13--Testing-Sitecore-MVC.md#e2e-testing)
 
 #### Chapter 14: [Code Generation with Sitecore MVC](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-14--Code-Generation-with-Sitecore-MVC.md)
-- Glass Mapper integration with Sitecore MVC
-- Compiled Domain Model integration with Sitecore MVC
-- Diamond (?)
+- [Glass Mapper Integration with Sitecore MVC](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-14--Code-Generation-with-Sitecore-MVC.md#glass-mapper-integration-with-sitecore-mvc)
+- [Compiled Domain Model (CDM) Integration with Sitecore MVC](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-14--Code-Generation-with-Sitecore-MVC.md#compiled-domain-model-cdm-integration-with-sitecore-mvc)
+- [Diamond Integration with Sitecore MVC](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-14--Code-Generation-with-Sitecore-MVC.md#diamond-integration-with-sitecore-mvc)
+- [Custom Item Generator (CIG) Integration with Sitecore MVC](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-14--Code-Generation-with-Sitecore-MVC.md#custom-item-generator-cig-integration-with-sitecore-mvc)
 
 #### Chapter 15: [Client Side Javascript Frameworks](https://github.com/saberone/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-15--Client-Side-Javascript-Frameworks.md) 
 
