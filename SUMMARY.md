@@ -2,10 +2,10 @@
 
 This is the summary of my book.
 
-* [Section One: MVC](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--MVC/README.md)
+* [Part One: MVC](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--MVC/README.md)
 	* [Chapter 1: The MVC pattern](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--MVC/Chapter-01--The-MVC-Pattern.md)
 	* [Chapter 2: ASP.NET MVC](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--MVC/Chapter-02--ASP-NET-MVC.md)
-* [Section Two: MVC in Sitecore](https://github.com/SitecoreMVC/theBook/blob/master/Part-2--MVC-with-Sitecore/README.md)
+* [Part Two: MVC in Sitecore](https://github.com/SitecoreMVC/theBook/blob/master/Part-2--MVC-with-Sitecore/README.md)
 	* [Chapter 1: Back to Basics](https://github.com/SitecoreMVC/theBook/blob/master/Part-2--MVC-with-Sitecore/Chapter-01--Back-to-Basics.md)
 	* [Chapter 2: Essential Tools](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Part-2--MVC-with-Sitecore/Chapter-02--Essential-Tools.md) 
 	* [Chapter 3: The MVC pattern in Sitecore](https://github.com/SitecoreMVC/theBook/blob/master/Part-2--MVC-with-Sitecore/Chapter-03--The-MVC-Pattern-in-Sitecore.md)
@@ -25,6 +25,6 @@ This is the summary of my book.
 	* [Chapter 17: Page Editor with MVC]()
 	* [Chapter 18: Web Forms for Marketers with MVC]()
 	* [Chapter 19: DMS with MVC]()
-* [Section Three: Case Studies](https://github.com/SitecoreMVC/theBook/blob/master/Part-3--Case-Studies/README.md)
-* [Section Four: References](https://github.com/SitecoreMVC/theBook/blob/master/Part-4--References/README.md)
+* [Part Three: Case Studies](https://github.com/SitecoreMVC/theBook/blob/master/Part-3--Case-Studies/README.md)
+* [Part Four: References](https://github.com/SitecoreMVC/theBook/blob/master/Part-4--References/README.md)
 	* [Chapter 1: Online Resources](https://github.com/SitecoreMVC/theBook/blob/master/Part-4--References/Chapter-1--Online-Resources.md)
