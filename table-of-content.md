@@ -3,7 +3,6 @@
 ## Part One: Basics
 
 ### Section One: MVC
-Note: I'm hesitant about including this section, since there is already a lot of content out there about MVC, but maybe someone is interested in write some content to introduce the MVC pattern, tailoring the content to help the reader better understand how ASP.NET MVC integrates with Sitecore?
 
 #### Chapter 1: [The MVC pattern](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-1--MVC/Chapter-01--The-MVC-Pattern.md)
 
@@ -19,8 +18,13 @@ Note: I'm hesitant about including this section, since there is already a lot of
 
 #### Chapter 2: [Essential Tools](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-02--Essential-Tools.md) 
 - [Sitecore Rocks](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-02--Essential-Tools.md#sitecore-rocks)
+<<<<<<< HEAD
 - [Sitecore Glimpse](https://www.nuget.org/packages/Sitecore.Glimpse)
  - [Extensions to Sitecore Glimpse](https://github.com/kevinobee/Sitecore.Glimpse)  
+=======
+- [Sitecore Glimpse](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-02--Essential-Tools.md#sitecore-glimpse)
+ - [Extensions to Sitecore Glimpse](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-02--Essential-Tools.md#extensions-to-sitecore-glimpse)
+>>>>>>> upstream/master
 
 #### Chapter 3: [The MVC pattern in Sitecore](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-03--The-MVC-Pattern-in-Sitecore.md)
 
@@ -49,28 +53,37 @@ Note: I'm hesitant about including this section, since there is already a lot of
 #### Chapter 12: [Dependency Injection](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-12--Dependency-Injection.md)
 
 #### Chapter 13: [Testing Sitecore MVC](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-13--Testing-Sitecore-MVC.md)
-- Unit Testing
-- Mocking
-- E2E Testing
+- [Unit Testing](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-13--Testing-Sitecore-MVC.md#unit-testing)
+- [Mocking](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-13--Testing-Sitecore-MVC.md#mocking)
+- [E2E Testing](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-13--Testing-Sitecore-MVC.md#e2e-testing)
 
 #### Chapter 14: [Code Generation with Sitecore MVC](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-14--Code-Generation-with-Sitecore-MVC.md)
-- Glass Mapper integration with Sitecore MVC
-- Compiled Domain Model integration with Sitecore MVC
-- Diamond (?)
+- [Glass Mapper Integration with Sitecore MVC](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-14--Code-Generation-with-Sitecore-MVC.md#glass-mapper-integration-with-sitecore-mvc)
+- [Compiled Domain Model (CDM) Integration with Sitecore MVC](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-14--Code-Generation-with-Sitecore-MVC.md#compiled-domain-model-cdm-integration-with-sitecore-mvc)
+- [Diamond Integration with Sitecore MVC](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-14--Code-Generation-with-Sitecore-MVC.md#diamond-integration-with-sitecore-mvc)
+- [Custom Item Generator (CIG) Integration with Sitecore MVC](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-14--Code-Generation-with-Sitecore-MVC.md#custom-item-generator-cig-integration-with-sitecore-mvc)
 
-#### Chapter 15: Page Editor with MVC
+#### Chapter 15: [Client Side Javascript Frameworks](https://github.com/saberone/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-15--Client-Side-Javascript-Frameworks.md) 
+
+#### Chapter 16: Developing MVC Applications for Sitecore with SPEAK
+
+#### Chapter 17: Page Editor with MVC
 Anything special here with regards to MVC that a developer should know? 
 
-#### Chapter 16: Web Forms for Marketers with MVC
+#### Chapter 18: Web Forms for Marketers with MVC
 Anything special here with regards to MVC that a developer should know? 
 
-#### Chapter 17: DMS with MVC
+#### Chapter 19: DMS with MVC
 Is there anything specific to MVC that needs to be discussed?
 
 ### Section Three: References
 
 #### Chapter 1: Online Resources
+<<<<<<< HEAD
  - [The Sitecore MVC Contrib project](https://github.com/Sitecore-Community/Sitecore-Mvc-Contrib)
+=======
+- [The Sitecore MVC Contrib project](https://github.com/Sitecore-Community/Sitecore-Mvc-Contrib)
+>>>>>>> upstream/master
  - [Using Sitecore MVC Components on WebForms pages](http://www.hhogdev.com/blog/2012/december/mvc-webforms.aspx)
  - [Launch Sitecore MVC Site](https://bitbucket.org/demoniusrex/launch-sitecore-mvc-demo)
 
