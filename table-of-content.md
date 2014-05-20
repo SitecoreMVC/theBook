@@ -19,6 +19,9 @@ Note: I'm hesitant about including this section, since there is already a lot of
 
 #### Chapter 2: [Essential Tools](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-02--Essential-Tools.md) 
 - [Sitecore Rocks](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-02--Essential-Tools.md#sitecore-rocks)
+- [Sitecore Glimpse]
+ - [Extensions to Sitecore Glimpse]
+
 
 #### Chapter 3: [The MVC pattern in Sitecore](https://github.com/SitecoreMVC/theBook/blob/master/Part-1--Basics/Section-2--MVC-with-Sitecore/Chapter-03--The-MVC-Pattern-in-Sitecore.md)
 
@@ -70,7 +73,9 @@ Is there anything specific to MVC that needs to be discussed?
 ### Section Three: References
 
 #### Chapter 1: Online Resources
-Anything else here?
+- [The Sitecore MVC Contrib project](https://github.com/Sitecore-Community/Sitecore-Mvc-Contrib)
+ - [Using Sitecore MVC Components on WebForms pages](http://www.hhogdev.com/blog/2012/december/mvc-webforms.aspx)
+ - [Launch Sitecore MVC Site](https://bitbucket.org/demoniusrex/launch-sitecore-mvc-demo)
 
 ## Part Two: Case Studies
 The more the merrier, obviously, but we should at least include a couple of case studies. **Each case study should be accompanied by a fully working Visual Studio solution with all the files and resources needed.**
