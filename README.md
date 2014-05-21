@@ -29,3 +29,13 @@ Therefore, submitting a **Pull Request** is going to be the best way to submit y
 My name is [Francesco Gallarotti](https://github.com/gallarotti) ([@gallarotti](https://www.twitter.com/gallarotti) on Twitter) and I will be the *project maintainer*. Feel free to contact me if you have ideas and/or suggestions. And, **please, don't forget to share this project with all your colleagues and friends that could be interested in participating!**
 
 Thank you!
+
+## Project Contributors
+The following people have contributed to the book (in random order):
+
+- [Francesco Gallarotti](https://github.com/gallarotti) ([@gallarotti](https://www.twitter.com/gallarotti) on Twitter)
+- [Saber Karmous](https://github.com/saberone)
+- [Sean Holmesby](https://github.com/SaintSkeeta) ([@seanholmesby](https://twitter.com/seanholmesby) on Twitter)
+- [Robbert Hock](https://github.com/KayeeNL) ([@kayeeNL](https://twitter.com/kayeeNL) on Twitter)
+- [Jukka-Pekka Keisala](https://github.com/jpkeisala) ([@jpkeisala](https://twitter.com/jpkeisala) on Twitter)
+
