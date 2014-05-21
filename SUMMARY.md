@@ -26,5 +26,4 @@
 * [Part Three: Case Studies](case_studies/README.md)
 * [Part Four: References](references/README.md)
     * [Online Resources](references/online_resources.md)
-    * [YouTube Video's](references/youtube_videos.md)
 
