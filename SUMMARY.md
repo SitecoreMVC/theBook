@@ -23,7 +23,7 @@
     * Chapter 17: Page Editor with MVC
     * Chapter 18: Web Forms for Marketers with MVC
     * Chapter 19: DMS with MVC
-* [Part Three: Case Studies](/Part-3--Case-Studies/README.md)
-* [Part Four: References](/Part-4--References/README.md)
-    * [Chapter 1: Online Resources](/Part-4--References/Chapter-1--Online-Resources.md)
+* [Part 3: Case Studies](part_three_case_studies/README.md)
+* [Part 4: References](part_four_references/README.md)
+    * [Chapter 1: Online Resources](part_four_references/chapter_1_online_resources.md)
 
