@@ -23,6 +23,7 @@
     * [Page Editor with MVC](mvc_with_sitecore/page_editor_with_mvc.md)
     * [Web Forms for Marketers with MVC](mvc_with_sitecore/web_forms_for_marketers_with_mvc.md)
     * [DMS with MVC](mvc_with_sitecore/dms_with_mvc.md)
+    * [Dynamic Placeholders with MVC](mvc_with_sitecore/dynamic_placeholders_with_mvc.md)
 * [Part Three: Case Studies](case_studies/README.md)
 * [Part Four: References](references/README.md)
     * [Online Resources](references/online_resources.md)
