@@ -14,11 +14,13 @@ Martina's feedback is very important to me, because it confirms that having chos
 
 ## Where are we at? 
 
-If you are interested in participating in this project, now that the [Table of Contents](https://github.com/SitecoreMVC/theBook/blob/master/table-of-content.md) is almost done, and the refactoring needed to make the book structure "Gitbook compliant" is almost finished, **it's time to start entering content**!! 
+If you are interested in participating in this project, now that the [Table of Contents](SUMMARY.md) is almost done, and the refactoring needed to make the book structure *Gitbook compliant* is almost finished, **it's time to start entering content**!! 
 
-Keep in mind that this is a *living project*, which means that very few things are set in stone. Chapters can be added / moved and removed as the community see fit. Just fork and submit a pull request (see below) to submit your ideas / content! If your pull request does not fit the Gitbook guidelines I will help with that.
+Keep in mind that this is a *living project*, which means that very few things are set in stone. Chapters will be added / moved and removed as the community see fit. 
 
-Furthermore, you can always check the current list of [milestones](https://github.com/SitecoreMVC/theBook/issues/milestones)
+Just fork and submit a pull request (see below) to submit your ideas / content! If your pull request does not fit the Gitbook guidelines I will help with that.
+
+Furthermore, you can always check the current list of [milestones](https://github.com/SitecoreMVC/theBook/issues/milestones) and the [open issues](https://github.com/SitecoreMVC/theBook/issues?state=open). Adding a new issue is the best way to propose an idea to the entire community.
 
 ## How to submit content
 
