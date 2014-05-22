@@ -1,4 +1,12 @@
 {
     "title": "Sitecore MVC - the Community Book",
-    "description": "The first crowdsourced book about Sitecore MVC"
+    "description": "The first crowdsourced book about Sitecore MVC",
+    "plugins": ["richquotes"],
+    "pluginsConfig": 
+    {
+    	"richquotes":
+    	{
+    		"todos": true
+    	}
+    }
 }
