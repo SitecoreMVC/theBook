@@ -34,7 +34,7 @@ Therefore, submitting a **Pull Request** is going to be the best way to submit y
 
 My name is [Francesco Gallarotti](https://github.com/gallarotti) ([@gallarotti](https://www.twitter.com/gallarotti) on Twitter) and I will be the *project maintainer*. Feel free to contact me if you have ideas and/or suggestions. And, **please, don't forget to share this project with all your colleagues and friends that could be interested in participating!**
 
-Thank you!
+Thank you!!
 
 ## Project Contributors
 
