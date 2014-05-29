@@ -9,9 +9,52 @@ To use John West's words:
 *(to dig deeper and learn how to create and run your own custom pipelines in Sitecore, check out [this article](http://adeneys.wordpress.com/2008/08/27/creating-and-running-custom-pipelines-in-sitecore/) by Alistair Deneys)*
 
 ### The HttpRequestBegin Pipeline
-*(for more details, read the in-depth article on the httpRequestBegin pipeline on [InSitecore](http://insitecore.tumblr.com/post/37734162227/sitecore-httprequestbegin-pipeline-in-detail))*
+*(for more details, read the in-depth article on the `HttpRequestBegin` pipeline on [InSitecore](http://insitecore.tumblr.com/post/37734162227/sitecore-httprequestbegin-pipeline-in-detail))*
 
 This is the longest Sitecore pipeline, with over 20 processors being executed. It takes the incoming *http request* and determines how the request should be handled. 
+
+#### Pipeline Execution
+
+Before we dive into the specifics of each processors executed when this pipeline runs, let's try to understand what is triggering the execution of the pipeline itself in the first place. First, I simply tried searching for "HttpRequestBegin" within the Sitecore.Kernel code (decompiled from the Sitecore.Kernel DLL using [dotPeek](http://www.jetbrains.com/decompiler/) the free .NET decompiler from JetBrains), but I got no matches. This brought back to memory a comment by John West to [one of his own blog posts](http://www.sitecore.net/nederland/Community/Technical-Blogs/John-West-Sitecore-Blog/Posts/2011/05/Important-Pipelines-in-the-Sitecore-ASPNET-CMS.aspx), in which he stated that:
+
+>some of the calls to pipelines are in obfuscated assemblies. One tip I can suggest is to add a processor to a pipeline and log the stack trace. 
+
+Therefore I created this class:
+
+```c#
+namespace SCMVC72.Pipelines{    public class LogHttpRequestStackTrace : Sitecore.Pipelines.HttpRequest.HttpRequestProcessor    {        public string Pipeline { get; set; }        public override void Process(HttpRequestArgs args)        {            StackTrace st = new StackTrace();            Log.Info(string.Empty, this);            Log.Info("*********************************************************************", this);            Log.Info("LogHttpRequestStackTrace:", this);            Log.Info("Pipeline" + Pipeline + "(" + args.RequestType + ")", this);            Log.Info("Requested URL: " + Sitecore.Context.RawUrl, this);            Log.Info("StackTrace:", this);            Log.Info(st.ToString(), this);            Log.Info("*********************************************************************", this);        }    }
+}```        And I added this custom processor to the `HttpRequestBegin` by creating a configuration file in the `App_Config\Include` folder with the following:
+
+```xml
+  <configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">    <sitecore>      <pipelines>        <httpRequestBegin>          <processor type="SCMVC72.Pipelines.LogHttpRequestStackTrace, SCMVC72"                     patch:before="processor[@type='Sitecore.Pipelines.PreprocessRequest.CheckIgnoreFlag, Sitecore.Kernel']" />        </httpRequestBegin>      </pipelines>    </sitecore>  </configuration>    
+```
+
+I restarted the Sitecore site, hit the home page of the site and this is what I got in the logs:
+
+```
+4708 09:22:56 INFO  *********************************************************************4708 09:22:56 INFO  LogHttpRequestStackTrace:4708 09:22:56 INFO  Pipeline(Begin)4708 09:22:56 INFO  Requested URL: /4708 09:22:56 INFO  StackTrace:4708 09:22:56 INFO     at SCMVC72.Pipelines.LogHttpRequestStackTrace.Process(HttpRequestArgs args)   at (Object , Object[] )   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)   at Sitecore.Nexus.Web.HttpModule.(Object , EventArgs )   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)   at System.Web.HttpApplication.PipelineStepManager.ResumeSteps(Exception error)   at System.Web.HttpApplication.BeginProcessRequestNotification(HttpContext context, AsyncCallback cb)   at System.Web.HttpRuntime.ProcessRequestNotificationPrivate(IIS7WorkerRequest wr, HttpContext context)   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotificationHelper(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)   at System.Web.Hosting.PipelineRuntime.ProcessRequestNotification(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)4708 09:22:56 INFO  *********************************************************************
+```
+
+Needless to say, HRH John West was right. The stacktrace clearly shows that the pipeline is being run by an Http module defined in the  `Sitecore.Nexus` library. 
+
+In case you are not familiar with Http modules, the .NET documentation states:
+
+>An HTTP module is an assembly that is called on every request that is made to your application. HTTP modules are called as part of the ASP.NET request pipeline and have access to life-cycle events throughout the request. HTTP modules let you examine incoming and outgoing requests and take action based on the request.
+
+In Sitecore's `web.config` we find the Nexus Http module added to the `<system.webServer>` section:
+
+```
+  <system.webServer>    <modules runAllManagedModulesForAllRequests="true">      <remove name="WebDAVModule"/>      <add type="Sitecore.Web.RewriteModule, Sitecore.Kernel" name="SitecoreRewriteModule"/>      <add type="Sitecore.Nexus.Web.HttpModule,Sitecore.Nexus" name="SitecoreHttpModule"/>      <add type="Sitecore.Resources.Media.UploadWatcher, Sitecore.Kernel" name="SitecoreUploadWatcher"/>
+```
+
+Unfortunately, the `Sitecore.Nexus` DLL is obfuscated, therefore the decompiled code is hard to read. Nonetheless, if we try to decompile this DLL anyways, we find the following code, which is responsible for running the `HttpRequestBegin` Sitecore pipeline:
+
+      string pipelineName1 = HttpModule.\u0080(1438);      HttpRequestArgs httpRequestArgs = new HttpRequestArgs(context, HttpRequestType.End);
+      CorePipeline.Run(pipelineName1, (PipelineArgs) httpRequestArgs);
+
+To recap, on every incoming Http request, ASP.NET runs through a list of Http modules that need to be executed. One of the Http modules defined by the Sitecore's `web.config` is the `Sitecore.Nexus.Web.HttpModule`, which, among other things, runs the `HttpRequestBegin` pipeline.
+
+#### Pipeline Processors
 
 After a few diagnostic related processors, the pipeline fires up the `Site Resolver` processor, in charge of determining which *Sitecore site* (as per the site definitions inside the `configuration/sitecore/site` section of the `web.config`) should handle the incoming request and updated the `Sitecore.Context.Site` with this piece of information.
 
@@ -56,6 +99,7 @@ The following diagram summarizes the process followed by Sitecore in the `HttpBe
 ![](../figures/HttpBeginRequestPipeline.png)
 
 *(To dig deeper, read the [MVC-related pipelines](mvc_with_sitecore/mvc_related_pipelines.md) chapter)*
+
 
 
 ### notes
