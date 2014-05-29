@@ -102,7 +102,7 @@ The following diagram summarizes the process followed by Sitecore in the `HttpBe
 
 
 
-### notes
+### notes to continue this chapter (for now, ignore)
 
 "initialize" pipeline
 runs the InitializeRoutes processor...
