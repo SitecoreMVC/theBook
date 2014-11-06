@@ -45,4 +45,4 @@ The following people have contributed to the book (in random order):
 - [Sean Holmesby](https://github.com/SaintSkeeta) ([@seanholmesby](https://twitter.com/seanholmesby) on Twitter)
 - [Robbert Hock](https://github.com/KayeeNL) ([@kayeeNL](https://twitter.com/kayeeNL) on Twitter)
 - [Jukka-Pekka Keisala](https://github.com/jpkeisala) ([@jpkeisala](https://twitter.com/jpkeisala) on Twitter)
-
+- [Mickey Rahman](https://github.com/rahm0277) ([@mickrhm](https://twitter.com/mickrhm) on Twitter)
